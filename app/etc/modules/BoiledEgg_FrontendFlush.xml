@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<BoiledEgg_FrontendFlush>
+			<active>true</active>
+			<codePool>community</codePool>
+			<depends>
+				<Mage_Core/>
+			</depends>
+		</BoiledEgg_FrontendFlush>
+	</modules>
+</config>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<BoiledEgg_FrontendFlush>
+			<version>1.0.0</version>
+		</BoiledEgg_FrontendFlush>
+	</modules>
+	<global>
+		<models>
+			<core>
+				<rewrite>
+					<design_package>BoiledEgg_FrontendFlush_Model_Design_Package</design_package>
+				</rewrite>
+			</core>
+		</models>
+		<helpers>
+			<frontend_flush>
+				<class>BoiledEgg_FrontendFlush_Helper</class>
+			</frontend_flush>
+		</helpers>
+	</global>
+</config>

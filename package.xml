@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>FrontendFlush</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Really flush your JavaScript and CSS merged files.</summary>
+    <description>This module makes sure that the flush JavaScript CSS action creates a file with a unique name if the content of your Javascript or CSS files has changed.&#xD;
+&#xD;
+By default Magento only does this if one of the file names has changed.</description>
+    <notes>Base functionality:&#xD;
+* Create merged css file name based on css file contents&#xD;
+* Create merged js file name based on js file content</notes>
+    <authors><author><name>Anton Evers</name><user>ajpevers</user><email>ajpevers@gmail.com</email></author></authors>
+    <date>2013-07-23</date>
+    <time>11:29:54</time>
+    <contents><target name="magecommunity"><dir name="BoiledEgg"><dir name="FrontendFlush"><dir name="etc"><file name="config.xml" hash="1d05d3d0d5a4255493ea2bf1725b46b2"/></dir><dir name="Helper"><file name="Data.php" hash="088f503f7ab0b6bc7fcd9c2ec7ff6b3b"/></dir><dir name="Model"><dir name="Design"><file name="Package.php" hash="c865e5e9fcee11838aef2cff7da7a46d"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="BoiledEgg_FrontendFlush.xml" hash="d2048014a128200e319424a06fbd39b3"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.13</min><max>5.4.14</max></php></required></dependencies>
+</package>
