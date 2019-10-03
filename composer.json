@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/FrontendFlush",
+    "name": "OpenMageModuleFostering\/FrontendFlush",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Really flush your JavaScript and CSS merged files.",
     "authors": [
-    {
-        "name": "Anton Evers",
-        "email": "ajpevers@gmail.com"
-    }
-],
+        {
+            "name": "Anton Evers",
+            "email": "ajpevers@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
